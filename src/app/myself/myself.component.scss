@@ -1,0 +1,86 @@
+.main-part{
+    position: absolute;
+    //top:60px;
+    height:40vh; 
+    background-size:cover;
+    width:100%;
+    background-image:url('../../assets/images/fotografira.jpg');
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+    }
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(70, 67, 67);
+    opacity: 0.3;
+    position: absolute;
+
+}
+.sec{
+    width: 50vw;
+    position: absolute;
+    left: 27%;
+    margin-right: auto;
+    margin-left: auto;
+    top: 45%;
+    text-align: center;
+    opacity: 1;
+    z-index: 90;
+    }
+.sec h1{
+    color: white;
+    font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    margin-bottom: auto;
+    top: auto;
+}
+.crta{
+    background-color: rgba(253, 216, 53, 1);
+    width: 100%;
+    height: 10px;
+
+}
+
+.content{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 100%;
+}
+
+.sekcija{
+    //border: 2px white solid;
+    width: 26.66vw;
+    height: 85vh;
+    display: inline-block;
+}
+
+.wrapper2{
+    position: relative;
+    margin-left: 9%;
+    top: 2%;
+}
+
+.wrapper2 > * {
+    vertical-align:middle;  // Align children to middle of line
+}
+
+.sekcija img{
+    position: relative;
+    top: 0;
+    margin-left: 2%;
+    width: 365px;
+    height: 365px;
+}
+
+.sekcija p, h3 {
+    color: white;
+    text-align: center;
+    font-size: 14pt;
+    
+}

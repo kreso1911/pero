@@ -1,0 +1,110 @@
+.main-part{
+    position: absolute;
+    //top:60px;
+    height:120vh; 
+    background-size:cover;
+    width:100%;
+    background-image:url('../../assets/images/druga.jpg');
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+    }
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(70, 67, 67);;
+    opacity: 0.3;
+    position: absolute;
+
+}
+.sec{
+    width: 50vw;
+    position: absolute;
+    left: 27%;
+    margin-right: auto;
+    margin-left: auto;
+    top: 18%;
+    text-align: center;
+    opacity: 1;
+    z-index: 100;
+    }
+.sec h1{
+    color: white;
+    font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    margin-bottom: auto;
+    top: auto;
+}
+.crta{
+    background-color: rgba(253, 216, 53, 1);
+    width: 100%;
+    height: 10px;
+
+}
+
+.sadrzaj{
+    width: 100%;
+    background-color: black;
+    height: 142vh;
+    position: absolute;
+    top: 38%;
+    color: whitesmoke;
+    padding-top: 2%;
+
+}
+.bijelo{
+    width: 100%;
+    height: 7vh;
+    background-color: whitesmoke;
+    position: absolute;
+    z-index: 50;
+    top: 100%;
+}
+
+.sadrzaj h3{
+    position: relative;
+    left: 7.5%;
+    width: 92.5%;
+}
+
+.spanovi{
+    width: 85%;
+    position: relative;
+    left: 5%;
+    border: 1px solid black;
+    margin: auto;
+}
+.spanovi img{
+    width: 436px;
+    height: 321px;
+}
+
+.spanovi div{
+    border: 1px solid black;
+    margin-right: 2%;
+    width: 80%;
+    margin-top: 2%;
+}
+.spanovi div h1{
+    margin:0;
+}
+#naslov1{
+    position: absolute;
+    left: 40%;
+    top: 0;
+}
+
+#naslov2{
+    position: absolute;
+    left: 40%;
+    top: 33%;  
+}
+
+#naslov3{
+    position: absolute;
+    left: 40%;
+    top: 66%;
+}
