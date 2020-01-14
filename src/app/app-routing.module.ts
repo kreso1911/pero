@@ -6,6 +6,7 @@ import { VideoComponent } from './video/video.component';
 import { IgraniComponent } from './igrani/igrani.component';
 import { AnimiraniComponent } from './animirani/animirani.component';
 import { SkolskaComponent } from './skolska/skolska.component';
+import { PromoComponent } from './promo/promo.component';
 
 
 
@@ -15,7 +16,8 @@ const routes: Routes = [
   {path: 'video', component: VideoComponent},
   {path: 'igrani', component: IgraniComponent},
   {path: 'animirani', component: AnimiraniComponent},
-  {path: 'skolska', component: SkolskaComponent}   
+  {path: 'skolska', component: SkolskaComponent},
+  {path: 'promo', component: PromoComponent}      
 ]
 
 @NgModule({
@@ -28,5 +30,6 @@ export const routingComponents = [HomeComponent,
                                   VideoComponent,
                                   IgraniComponent,
                                   AnimiraniComponent,
-                                  SkolskaComponent
+                                  SkolskaComponent,
+                                  PromoComponent
                                 ];
