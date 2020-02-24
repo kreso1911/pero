@@ -1,0 +1,112 @@
+.main-part{
+    position: absolute;
+    //top:60px;
+    height:120vh; 
+    background-size:cover;
+    width:100%;
+    background-image:url('../../assets/images/druga.jpg');
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size: cover;
+    }
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(70, 67, 67);;
+    opacity: 0.3;
+    position: absolute;
+
+}
+.sec{
+    width: 50vw;
+    position: absolute;
+    left: 27%;
+    margin-right: auto;
+    margin-left: auto;
+    top: 300px;
+    text-align: center;
+    opacity: 1;
+    z-index: 100;
+    }
+.sec h1{
+    color: white;
+    font-size: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0em;
+    margin-bottom: auto;
+    top: auto;
+}
+.crta{
+    background-color: rgba(253, 216, 53, 1);
+    width: 100%;
+    height: 10px;
+
+}
+
+.slike{
+    position: relative;
+    top: 100%;
+    width: 100%;
+    height: 70%;
+}
+
+.bijeli .wrapper1{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    left: 5%;
+
+}
+
+.crni .wrapper1{
+    position: relative;
+    width: 90%;
+    height: 100%;
+    left: 4%;
+}
+
+.bijeli{
+    background-color: white;
+}
+
+.crni{
+    background-color: black;
+}
+
+.bijeli .velka{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 60%;
+    height: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: left;
+
+}
+
+.bijeli .mala{
+    width: 30%;
+    height: 40%;
+    float: left;
+    margin-top: 2%;
+}
+
+.crni .velka{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 60%;
+    height: 80%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    float: right;
+
+}
+
+.crni .mala{
+    width: 30%;
+    height: 40%;
+    float: right;
+    margin-top: 2%;
+}
